@@ -20,7 +20,7 @@ cosmic-config = {git = "https://github.com/pop-os/libcosmic/", features = ["call
 cosmic-protocols = {git = "https://github.com/pop-os/cosmic-protocols", rev = "e706814", default-features = false, features = ["server"]}
 cosmic-settings-config = { git = "https://github.com/pop-os/cosmic-settings-daemon" }
 cosmic-text = { git = "https://github.com/pop-os/cosmic-text.git", features = ["shape-run-cache"] }
-libdisplay-info = "0.2.0"
+libdisplay-info = { git = "https://github.com/fossdd/libdisplay-info-rs", branch = "0.3.0" }
 egui = {version = "0.30.0", optional = true}
 egui_plot = {version = "0.30.0", optional = true}
 i18n-embed = {version = "0.14", features = ["fluent-system", "desktop-requester"]}
